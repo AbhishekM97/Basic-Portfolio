@@ -1,0 +1,200 @@
+body{
+    background-color: #4aaaa5;
+    padding:0;
+    margin:0;
+}
+
+.container{
+    margin: auto;
+}
+
+header{
+    min-height: 80px;
+    border: 3px solid #cccccc;
+    background-color: #ffffff;
+}
+header a{
+    text-decoration: none;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 10px 0px 10px;
+    transition: 0.5s;
+}
+
+header #name{
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    max-height: 80px;
+    background-color: #666666;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+ #content{
+    padding: 5px;
+    background-color: #ffffff;
+    border: 10px solid #dddddd;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#content h2{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#content p{
+    font-family: 'Arial' Arial, Helvetica, sans-serif;
+
+}
+
+header ul{
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    border: 1px solid black transparent;
+    display: inline;
+}
+header nav{
+    float: right;
+    padding-top: 30px;
+}
+
+header #name h1{
+    margin: 0px;
+}
+
+#content #MyImage{
+    float: left;
+    padding-right: 5px;
+}
+header a:hover{
+    color: rgb(0, 0, 0);
+    background-color: #cccccc;
+    font-weight: 400;
+}
+ul li{
+    display: inline-block;
+}
+
+.Overall header h1{
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Overall header nav{
+    float: right;
+    padding-top: 30px;
+}
+
+.Overall header ul{
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.Overall header li{
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black transparent;
+    display: inline;
+}
+
+ .main{
+    padding: 5px;
+    background-color: #ffffff;
+    border: 10px solid #dddddd;
+    margin-top: 100px;
+    margin-bottom: 100px;
+ }
+
+ .main ul li{
+     margin: 2.66%;
+ }
+
+ .main ul li img{
+     border: 3px solid #4aaaa5;
+ }
+
+ #hangman a{
+     padding: 0px 50.5px 0px 51px;
+     position: absolute;
+     bottom: 263px;
+     text-align: center;
+     color: white;
+     text-decoration: none;
+     background-color: #4aaaa5;
+ }
+
+ #RuneScape a{
+    padding: 0px 66px 0px 68px;
+    position: absolute;
+    bottom: 263px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background-color: #4aaaa5;
+ }
+
+ #TriviaGame a{
+    padding: 0px 63px 0px 62px;
+    position: absolute;
+    bottom: 263px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background-color: #4aaaa5;
+ }
+
+ #RPS a{
+    padding: 0px 16.5px 0px 16.5px;
+    position: absolute;
+    bottom: 11px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background-color: #4aaaa5;
+ }
+
+ #RIG a{
+    padding: 0px 38px 0px 37.5px;
+    position: absolute;
+    bottom: 11px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    background-color: #4aaaa5;
+ }
+
+ #hangman a:hover{
+     background-color: black;
+ }
+
+ #RuneScape a:hover{
+    background-color: black;
+}
+
+#TriviaGame a:hover{
+    background-color: black;
+}
+
+#RPS a:hover{
+    background-color: black;
+}
+
+#RIG a:hover{
+    background-color: black;
+}
