@@ -6,6 +6,8 @@ body{
 
 .container{
     margin: auto;
+    max-width: 960px;
+    max-height: 960px;
 }
 
 header{
@@ -44,6 +46,7 @@ footer{
 
 #content h2{
     color: #4aaaa5;
+    border-bottom: 2px solid #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -114,13 +117,18 @@ ul li{
 }
 
  .main{
+    margin: auto;
+    max-width: 960px;
     padding: 5px;
     background-color: #ffffff;
     border: 10px solid #dddddd;
     margin-top: 100px;
     margin-bottom: 100px;
  }
-
+.main h2{
+    color: #4aaaa5;
+    border-bottom: 2px solid #4aaaa5;
+}
  .main ul li{
      margin: 2.66%;
  }
@@ -197,4 +205,23 @@ ul li{
 
 #RIG a:hover{
     background-color: black;
+}
+
+#info h1{
+    color: #4aaaa5;
+    border-bottom: 2px solid #4aaaa5;
+}
+
+#info{
+    margin: auto;
+    background-color: #ffffff;
+}
+
+#MSG{ 
+    line-height: 80px;
+    width: 80%;
+}
+
+#FORM {
+    margin-left: 12px;
 }
